@@ -1,6 +1,9 @@
 {
 	"name": "svelte-sarden",
-	"version": "0.0.1",
+	"author": {
+		"name": "Binsar Dwi Jasuma"
+	},
+	"version": "0.0.0-test",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
