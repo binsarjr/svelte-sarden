@@ -3,7 +3,10 @@
 	"author": {
 		"name": "Binsar Dwi Jasuma"
 	},
-	"version": "0.0.0-test",
+	"repository": {
+		"url": "https://github.com/binsarjr/svelte-sarden"
+	},
+	"version": "0.0.0",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -49,6 +52,7 @@
 		"vite": "^4.0.0",
 		"vitest": "^0.25.3"
 	},
+	"private": false,
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"type": "module"
