@@ -55,5 +55,8 @@
 	"private": false,
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"svelte-local-storage-store": "^0.4.0"
+	}
 }
