@@ -1,5 +1,5 @@
 <script>
-	import LogicState from '../../lib/components/logicState/LogicState.svelte';
+	import { LogicState } from '$lib';
 </script>
 
 <LogicState let:state let:setTrue let:setFalse let:toggle>
