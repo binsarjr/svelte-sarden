@@ -1,4 +1,4 @@
-import type { LazyImageOptions } from './types'
+import type { LazyImageOptions } from './types';
 
 const imageComplete = (imageURL: string) =>
 	new Promise((resolve, reject) => {

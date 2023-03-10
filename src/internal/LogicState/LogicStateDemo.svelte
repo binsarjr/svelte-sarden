@@ -1,0 +1,25 @@
+<script>
+	import LogicState from '../../lib/components/logicState/LogicState.svelte';
+</script>
+
+<LogicState let:state let:setTrue let:setFalse let:toggle>
+	<table>
+		<tr>
+			<td>Status</td>
+			<td>{state}</td>
+		</tr>
+		<tr>
+			<td>
+				<button on:click={setTrue}>setTrue</button>
+			</td>
+			<td>
+				<button on:click={() => setFalse()}>setFalse</button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button on:click={toggle}>Toggle</button>
+			</td>
+		</tr>
+	</table>
+</LogicState>

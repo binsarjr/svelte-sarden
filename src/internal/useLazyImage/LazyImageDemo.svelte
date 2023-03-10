@@ -35,7 +35,7 @@
 	<div>
 		<p>Cache will real effect when your server is too slow and not set cache-control</p>
 		<p>and some browser not effect. idk why for this. tell me if you know</p>
-		<p><strong>Notes:</strong> its working for me on chrome android latest version </p>
+		<p><strong>Notes:</strong> its working for me on chrome android latest version</p>
 	</div>
 	<section style="display: flex;">
 		<fieldset>

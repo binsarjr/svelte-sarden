@@ -1,1 +1,1 @@
-export { lazyimage } from './hooks/useLazyImage'
+export { lazyimage } from './actions/useLazyImage';
