@@ -15,7 +15,6 @@ specifiers:
   publint: ^0.1.9
   svelte: ^3.54.0
   svelte-check: ^3.0.1
-  svelte-local-storage-store: ^0.4.0
   svelte-use-persist: ^0.3.1
   tslib: ^2.4.1
   typescript: ^4.9.3
@@ -23,7 +22,6 @@ specifiers:
   vitest: ^0.25.3
 
 dependencies:
-  svelte-local-storage-store: 0.4.0_svelte@3.55.1
   svelte-use-persist: 0.3.1_svelte@3.55.1
 
 devDependencies:
