@@ -16,6 +16,7 @@ specifiers:
   svelte: ^3.54.0
   svelte-check: ^3.0.1
   svelte-local-storage-store: ^0.4.0
+  svelte-use-persist: ^0.3.1
   tslib: ^2.4.1
   typescript: ^4.9.3
   vite: ^4.0.0
@@ -23,6 +24,7 @@ specifiers:
 
 dependencies:
   svelte-local-storage-store: 0.4.0_svelte@3.55.1
+  svelte-use-persist: 0.3.1_svelte@3.55.1
 
 devDependencies:
   '@playwright/test': 1.31.2
@@ -1855,6 +1857,15 @@ packages:
       svelte: 3.55.1
       typescript: 4.9.5
     dev: true
+
+  /svelte-use-persist/0.3.1_svelte@3.55.1:
+    resolution: {integrity: sha512-Ok5mLwrcaRcyJq7OoY3DnFaHkQVWxUp5nps/sNmzoQSp0qvLlMxt2VJklq87AvEoQvsijL7rMITAWlPlEMhHJw==}
+    peerDependencies:
+      svelte: ^3.54.0
+    dependencies:
+      svelte: 3.55.1
+      svelte-local-storage-store: 0.4.0_svelte@3.55.1
+    dev: false
 
   /svelte/3.55.1:
     resolution: {integrity: sha512-S+87/P0Ve67HxKkEV23iCdAh/SX1xiSfjF1HOglno/YTbSTW7RniICMCofWGdJJbdjw3S+0PfFb1JtGfTXE0oQ==}
